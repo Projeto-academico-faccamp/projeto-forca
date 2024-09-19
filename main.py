@@ -1,7 +1,7 @@
 import random
 from palavras import lista_palavras
 
-
+ 
 def obter_palavra():
     palavra = random.choice(lista_palavras)
     return palavra.upper()
